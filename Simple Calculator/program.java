@@ -93,6 +93,8 @@ class calculator_onceAgain extends PanelImplementation {
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         getContentPane().setBackground(Color.ORANGE);
         setTitle("CALCULATOR ONCE AGAIN");
+        ImageIcon logo=new ImageIcon("calculator.png");
+        setIconImage(logo.getImage());
         add(panel);
         add(panel2);
         add(panel3);
@@ -103,5 +105,6 @@ class calculator_onceAgain extends PanelImplementation {
 public class program {
     public static void main(String[] args) {
         new calculator_onceAgain();
+
     }
 }
